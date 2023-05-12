@@ -46,8 +46,8 @@ $( document ).ready(function() {
 			console.log("font size 8pt");
 		}
 		else {
-			$(this).parent().css("font-size", "12px");
-			console.log("default 12px");
+			$(this).parent().css("font-size", "8pt");
+			console.log("default 8pt");
 		}    
 	});
 });
