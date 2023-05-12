@@ -3,24 +3,24 @@ $( document ).ready(function() {
 			var $numWords = $(this).text().split(" ").length;
 			console.log($numWords);
 			if (($numWords >= 1) && ($numWords < 10)) {
-				$(this).css("font-size", "30px");
-				console.log("font size 30px");
+				$(this).css("font-size", "10pt");
+				console.log("font size 10pt");
 			}
 			else if (($numWords >= 10) && ($numWords < 20)) {
-				$(this).css("font-size", "25px");
-				console.log("font size 25px");
+				$(this).css("font-size", "9pt");
+				console.log("font size 9pt");
 			}
 			else if (($numWords >= 20) && ($numWords < 30)) {
-				$(this).css("font-size", "20px");
-				console.log("font size 20px");
+				$(this).css("font-size", "8.5pt");
+				console.log("font size 8.5pt");
 			}
 			else if (($numWords >= 30) && ($numWords < 40)) {
-				$(this).css("font-size", "16px");
-				console.log("font size 16px");
+				$(this).css("font-size", "8pt");
+				console.log("font size 8pt");
 			}
 			else {
-				$(this).css("font-size", "12px");
-				console.log("default 12px");
+				$(this).css("font-size", "8pt");
+				console.log("default 8pt");
 			}    
     });
 });
@@ -30,20 +30,20 @@ $( document ).ready(function() {
 		var $numWords = $(this).text().split(" ").length;
 		console.log($numWords);
 		if (($numWords >= 1) && ($numWords < 10)) {
-			$(this).parent().css("font-size", "30px");
-			console.log("font size 30px");
+			$(this).parent().css("font-size", "10pt");
+			console.log("font size 10pt");
 		}
 		else if (($numWords >= 10) && ($numWords < 20)) {
-			$(this).parent().css("font-size", "25px");
-			console.log("font size 25px");
+			$(this).parent().css("font-size", "9pt");
+			console.log("font size 9pt");
 		}
 		else if (($numWords >= 20) && ($numWords < 30)) {
-			$(this).parent().css("font-size", "20px");
-			console.log("font size 20px");
+			$(this).parent().css("font-size", "8.5pt");
+			console.log("font size 8.5pt");
 		}
 		else if (($numWords >= 30) && ($numWords < 40)) {
-			$(this).parent().css("font-size", "16px");
-			console.log("font size 16px");
+			$(this).parent().css("font-size", "8pt");
+			console.log("font size 8pt");
 		}
 		else {
 			$(this).parent().css("font-size", "12px");
